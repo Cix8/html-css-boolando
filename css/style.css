@@ -22,7 +22,6 @@ html {
 
 img {
     width: 100%;
-    margin-bottom: 10px;
 }
 
 .prezzo strong {
@@ -67,4 +66,83 @@ img {
 
 .no-sconto {
     left: 0%;
+}
+
+.img-container {
+    margin-bottom: 10px;
+}
+
+.n1 :first-child {
+    display: none;
+}
+
+.n1:hover :first-child {
+    display: inline-block;
+}
+
+.n1:hover :last-child {
+    display: none;
+}
+
+.n2 :first-child {
+    display: none;
+}
+
+.n2:hover :first-child {
+    display: inline-block;
+}
+
+.n2:hover :last-child {
+    display: none;
+}
+
+.n3 :first-child {
+    display: none;
+}
+
+.n3:hover :first-child {
+    display: inline-block;
+}
+
+.n3:hover :last-child {
+    display: none;
+}
+
+
+.n4 :first-child {
+    display: none;
+}
+
+.n4:hover :first-child {
+    display: inline-block;
+}
+
+.n4:hover :last-child {
+    display: none;
+}
+
+
+.n5 :first-child {
+    display: none;
+}
+
+.n5:hover :first-child {
+    display: inline-block;
+}
+
+.n5:hover :last-child {
+    display: none;
+}
+
+
+.n6 :first-child {
+    display: none;
+}
+
+.n6:hover :first-child {
+    display: inline-block;
+}
+
+.n6:hover :last-child {
+    display: none;
 }
