@@ -4,3 +4,62 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 70%;
+    max-width: 1200px;
+    border: 2px solid black;
+    margin: 2em auto;
+}
+
+.card {
+    display: inline-block;
+    width: calc(100%/3 - 3px);
+    border: 2px solid red;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.prezzo strong {
+    color: red;
+}
+
+.prezzo span {
+    text-decoration: line-through;
+}
+
+.heart {
+    font-size: 30px;
+    padding: 2%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 5%;
+}
+
+.sconto {
+    font-size: 12px;
+    padding: .3em;
+    color: white;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 15%;
+}
+
+.etichetta {
+    font-size: 12px;
+    padding: .3em;
+    color: white;
+    background-color: green;
+    position: absolute;
+    left: 12%;
+    bottom: 15%;
+}
