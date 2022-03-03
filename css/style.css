@@ -11,14 +11,12 @@ html {
 .container {
     width: 70%;
     max-width: 1200px;
-    border: 2px solid black;
     margin: 2em auto;
 }
 
 .card {
     display: inline-block;
     width: calc(100%/3 - 3px);
-    border: 2px solid red;
     position: relative;
 }
 
@@ -36,9 +34,12 @@ img {
 }
 
 .heart {
+    width: 40px;
+    height: 40px;
     font-size: 30px;
-    padding: 2%;
     background-color: white;
+    text-align: center;
+    line-height: 40px;
     position: absolute;
     right: 0;
     top: 5%;
@@ -62,4 +63,8 @@ img {
     position: absolute;
     left: 12%;
     bottom: 15%;
+}
+
+.no-sconto {
+    left: 0%;
 }
