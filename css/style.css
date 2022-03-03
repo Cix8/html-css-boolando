@@ -44,6 +44,10 @@ img {
     top: 5%;
 }
 
+.heart:hover {
+    color: red;
+}
+
 .sconto {
     font-size: 12px;
     padding: .3em;
