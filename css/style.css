@@ -77,77 +77,14 @@ img {
     margin-bottom: 10px;
 }
 
-.n1 :first-child {
+.img-container :first-child {
     display: none;
 }
 
-.n1:hover :first-child {
+.img-container:hover :first-child {
     display: inline-block;
 }
 
-.n1:hover :last-child {
-    display: none;
-}
-
-.n2 :first-child {
-    display: none;
-}
-
-.n2:hover :first-child {
-    display: inline-block;
-}
-
-.n2:hover :last-child {
-    display: none;
-}
-
-.n3 :first-child {
-    display: none;
-}
-
-.n3:hover :first-child {
-    display: inline-block;
-}
-
-.n3:hover :last-child {
-    display: none;
-}
-
-
-.n4 :first-child {
-    display: none;
-}
-
-.n4:hover :first-child {
-    display: inline-block;
-}
-
-.n4:hover :last-child {
-    display: none;
-}
-
-
-.n5 :first-child {
-    display: none;
-}
-
-.n5:hover :first-child {
-    display: inline-block;
-}
-
-.n5:hover :last-child {
-    display: none;
-}
-
-
-.n6 :first-child {
-    display: none;
-}
-
-.n6:hover :first-child {
-    display: inline-block;
-}
-
-.n6:hover :last-child {
+.img-container:hover :last-child {
     display: none;
 }
